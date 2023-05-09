@@ -1,0 +1,108 @@
+
+body{
+	display: flex;
+	justify-content: center;
+/* 	align-items: center; */
+	
+}
+.page{
+  background-color:#f88d9d;
+  height:750px;
+  width:400px;
+  border-style:solid;
+  border-width:8px;
+  border-radius:20px; 
+  border-color:pink;
+  background-image: linear-gradient(to bottom right,#f7d8de,#f88d9d);
+}
+h2{
+  padding-top:100px;
+  padding-left:40px;
+  font-family:Arial;
+  color:#1D144D
+}
+.mailbox{
+  border:none;
+  padding:15px 80px;
+  margin-left:40px;
+  margin-top:50px;
+  border-radius:10px; 
+  background-color:#F0CFE7;
+  background-image:linear gradient(white,pink)
+}
+
+.password{
+  border:none;
+  padding:15px 80px;
+  margin-left:40px;
+  margin-top:10px;
+  border-radius:10px; 
+  background-color:#F0CFE7;
+}
+
+.check{
+  margin:30px 40px;
+  font-family:Arial;
+  color:#1D144D;
+}
+
+.button{
+  padding:15px 135px;
+  margin-left:40px;
+  border-radius:10px;
+  border:none;
+  background-color:#1D144D;
+  font-family:arial;
+  font-size:15px;
+  color:white;
+}
+.forgot{
+  text-decoration:none;
+  padding-left:140px;
+  color:#1D144D;
+  font-family:arial;
+}
+.or{
+  font-family:Arial;
+  text-align:center;
+  color:#1D144D;
+  position:relative;
+  display: flex;
+  flex-direction: row;
+}
+.continue{
+  border-radius:7px;
+  background-color:#C2C2C2;
+  border:none;
+  padding:15px 85px;
+  margin-left:42px;
+  font-family:arial;
+}
+.continue2{
+  border-radius:7px;
+  background-color:#C2C2C2;
+  border:none;
+  padding:15px 80px;
+  margin-left:42px;
+  font-family:arial;
+}
+.signup{
+  color:#1D144D;
+  font-family:arial;
+  margin-left:130px;
+  font-size:10px
+}
+.fa-google{
+  color:black;
+  text-decoration:none;
+}
+.fa-facebook{
+  color:black;
+  text-decoration:none;
+}
+ .or:before,.or:after {
+    content: "";
+    flex:1 1;
+    border-bottom: 1px solid #000;
+    margin:10px 20px 30px;
+}
